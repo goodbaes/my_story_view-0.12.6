@@ -724,7 +724,7 @@ class StoryViewState extends State<StoryView> with TickerProviderStateMixin {
         ),
         Align(
           alignment: Alignment.bottomCenter,
-          child: widget,
+          child: widget.button,
         )
       ],
     );
